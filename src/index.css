@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.todo-list{
+  background-color: white;
+  width:70%;
+  height: 60vh;
+  border-radius: 15px;
+}
+h1{
+  color:blue;
+}
+.task-Item{
+  background-color: rgb(159, 244, 244);
+  width:50%;
+  margin :15px auto;
+  text-align: center;
+  padding:10px;
+  border-radius: 15px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.only-icons{
+  
+  width:120px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon:hover{
+  color:blue;
+  cursor:pointer;
+}
